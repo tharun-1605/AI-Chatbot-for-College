@@ -46,7 +46,7 @@ def fetch_college_data():
         response = requests.get(COLLEGE_URL, headers=headers, timeout=10)
         response.raise_for_status()
         
-        soup = BeautifulSoup(response.text, 'lxml')
+        soup = BeautifulSoup(response.text, 'html.parser')
         
         # Extract text content from various elements
         data_parts = []
