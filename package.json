@@ -1,0 +1,13 @@
+{
+  "name": "ai-chatbot-for-college",
+  "version": "1.0.0",
+  "description": "AI Chatbot for College",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": ["chatbot", "ai", "college"],
+  "author": "",
+  "license": "ISC"
+}
