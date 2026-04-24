@@ -106,7 +106,8 @@ function Chat() {
     setIsLoading(true);
 
     try {
-      const res = await fetch("http://127.0.0.1:5000/ask", {
+      const API_URL = "https://ai-chatbot-for-college.onrender.com";
+      const res = await fetch(`${API_URL}/ask`, {
         method: "POST",
         headers: {
           "Content-Type": "application/x-www-form-urlencoded",
